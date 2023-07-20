@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App *{
+  margin: 3px;
+}
+
+.frame{
+  margin-top:10px;
+  margin-left: 8px;;
+  display:flex;
+  border:4px solid black;
+  height:570px;
+  width:65%;
+}
+
+.leftColumn{
+  border:solid #F7B33B;
+  width:50%;
+  margin:3px;
+}
+
+.empDir{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:solid #5E9CE4;
+  margin: 3px;
+  height:8%;
+  font-size:20px;
+  font-weight:bold;
+  /* text-align:center; */
+}
+
+.searchBar{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:3px;
+  border:solid #417505;
+  height:8%;
+}
+
+.srchInput{
+  width:95%;
+  height:65%;
+  border:2px solid rgba(165, 190, 165, 0.747);;
+  /* outline:none rgb(131, 219, 131); */
+  border-radius:8px;
+  text-align:center;
+  font-size:18px;
+}
+
+/* .srchInput:focus{
+  width:95%;
+  height:65%;
+  border:none;
+  outline:none;
+  border-radius:8px;
+  color:#32382a;
+  text-align:center;
+} */
+.employeeList{
+border:solid #9013FE;
+height:440px;
+margin:3px;
+}
+
+.employee{
+  display:flex;
+border:solid #D10C25;
+height:63.5px;
+margin:3px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.rightColumn{
+  display:block;
+  border:solid #8B572A;
+  justify-content:end;
+  width:50%;
+  margin:3px;
+}
+
+.empHead{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:solid #5E9CE4;
+  margin: 3px;
+  height:8%;
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* .selectedEmployee{
+  margin:10px;
+  display:block;
+  border:2px solid rgba(197, 193, 193, 0.479);
+  border-radius:8px;
+  height:18%;
+} */
+
+.selectedEmployee{
+  /* margin:10px; */
+  display:block;
+  border:2px solid rgba(197, 193, 193, 0.479);
+  border-radius:8px;
+  height:84%;
+}
+
+.selectedMain{
+  /* padding:3px; */
+  display:block;
+  border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:30%;
+}
+
+.selectedOffice{
+  display:block;
+  border:2.5px solid rgba(197, 193, 193, 0.479);
+  
+  height:16.6%;
+}
+
+.selectedMobile{
+  display:block;
+  border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:16.6%;
+}
+
+.selectedSms{
+  display:block;
+  border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:16.6%;
+}
+
+.selectedEmail{
+  display:block;
+  border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:57px;
+}
+
+.profileImg{
+  height: 50px;
+  width:auto;
+}
