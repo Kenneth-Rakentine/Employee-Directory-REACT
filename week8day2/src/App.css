@@ -196,16 +196,38 @@ transition: .7s;
   height:30%;
 }
 
+.selectedMain:hover{
+  /* padding:3px; */
+  display:block;
+  border:4.5px solid rgba(58, 50, 50, 0.479);
+  /* transition:1.4s; */
+  /* border-radius:8px; */
+  height:30%;
+}
+
 .selectedOffice{
   display:block;
   border:2.5px solid rgba(197, 193, 193, 0.479);
-  
+  transition:.8;
+  height:16.6%;
+}
+
+.selectedOffice:hover{
+  display:block;
+  border:4.5px solid rgba(58, 50, 50, 0.479);
   height:16.6%;
 }
 
 .selectedMobile{
   display:block;
   border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:16.6%;
+}
+
+.selectedMobile:hover{
+  display:block;
+  border:4.5px solid rgba(58, 50, 50, 0.479);
   /* border-radius:8px; */
   height:16.6%;
 }
@@ -217,9 +239,23 @@ transition: .7s;
   height:16.6%;
 }
 
+.selectedSms:hover{
+  display:block;
+  border:4.5px solid rgba(58, 50, 50, 0.479);
+  /* border-radius:8px; */
+  height:16.6%;
+}
+
 .selectedEmail{
   display:block;
   border:2.5px solid rgba(197, 193, 193, 0.479);
+  /* border-radius:8px; */
+  height:57px;
+}
+
+.selectedEmail:hover{
+  display:block;
+  border:4.5px solid rgba(58, 50, 50, 0.479);
   /* border-radius:8px; */
   height:57px;
 }
